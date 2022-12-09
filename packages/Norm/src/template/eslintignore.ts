@@ -1,0 +1,1 @@
+export const eslintIgnoreConfig = ['node_modules', 'dist', '.eslintrc.cjs'].join('\n');
