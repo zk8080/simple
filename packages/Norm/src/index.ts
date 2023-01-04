@@ -31,7 +31,7 @@ async function start() {
     const { useTypeScript, useVite, packageManager, useEslint, useStylelint } =
       await askForLintType();
 
-    if (!useEslint && useStylelint) {
+    if (!useEslint && !useStylelint) {
       console.log(chalk.blue("\n👋 Goodbye!"));
       return;
     }

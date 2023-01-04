@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "bin": {
-    "create-simple-norm": "./bin/index.js"
+    "simple-norm": "./bin/index.js"
   },
   "devDependencies": {
     "@types/node": "^18.11.11",
